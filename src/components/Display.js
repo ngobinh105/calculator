@@ -7,6 +7,10 @@ const Display = ({ number, number2, number3, operator }) => {
     operatorSign = '÷'
   } else if (operator === '*') {
     operatorSign = '×'
+  } else if (operator === '+') {
+    operatorSign = '+'
+  } else if (operator === '-') {
+    operatorSign = '-'
   }
   if (number3) {
     result = number3
